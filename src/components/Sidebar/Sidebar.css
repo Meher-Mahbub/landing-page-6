@@ -1,0 +1,95 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 170px;
+
+  height: 100vh;
+  background: #fff;
+  z-index: 20;
+}
+
+.sidebar-brand {
+  position: absolute;
+  top: 38px;
+  left: 45px;
+  line-height: 1;
+}
+
+.brand-title {
+  font-family: "Circular Std", "Poppins", system-ui, -apple-system, "Segoe UI",
+    Roboto, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 34px;
+  letter-spacing: -0.06em;
+  color: #000000;
+  white-space: nowrap;
+}
+
+.brand-sub {
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: -0.07em;
+  line-height: 100%;
+  color: #000000;
+  margin-top: -2px;
+}
+
+.sidebar-subnav {
+  position: absolute;
+  bottom: 50px;
+  left: 122px;
+  transform: rotate(-90deg);
+  transform-origin: left bottom;
+  display: flex;
+  gap: 25px;
+}
+
+.sidebar-subnav a {
+  font-family: "Circular Std", "Poppins", system-ui, -apple-system, "Segoe UI",
+    Roboto, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 100%;
+  color: #000000;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.sidebar-subnav a:hover {
+  color: #1a1a1a;
+}
+
+.sidebar-divider {
+  position: absolute;
+  bottom: 260px;
+  left: 40px;
+  width: 90px;
+  height: 3px;
+  background: #d9d9d9;
+  transform: rotate(90deg);
+  transform-origin: left bottom;
+}
+
+.sidebar-socials {
+  position: absolute;
+  bottom: 50px;
+  left: 46px;
+  transform: rotate(-90deg);
+  transform-origin: left bottom;
+  display: flex;
+  gap: 30px;
+}
+
+.sidebar-socials a {
+  font-family: "Circular Std", "Poppins", system-ui, -apple-system, "Segoe UI",
+    Roboto, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.sidebar-socials a:hover {
+  opacity: 0.7;
+}
