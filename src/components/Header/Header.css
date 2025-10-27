@@ -1,0 +1,59 @@
+.header {
+  position: absolute;
+  top: 57px;
+  right: 120px;
+  width: 249px;
+  height: 18px;
+  background: #f6f6f6;
+  background: transparent;
+  z-index: 10;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+}
+
+.header-nav a {
+  font-family: "Circular Std", "Poppins", system-ui, -apple-system, "Segoe UI",
+    Roboto, Arial, sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 100%;
+  color: #000000;
+  text-decoration: none;
+}
+
+.header-nav a:hover {
+  opacity: 0.7;
+}
+
+.header-quote {
+  position: absolute;
+  top: 141px;
+  right: -120px;
+  width: 461px;
+  height: 67px;
+}
+
+.quote-divider {
+  position: absolute;
+  top: 5px;
+  left: -22px;
+  width: 3px;
+  height: 90%;
+  background: #bab3b3;
+  border-radius: 2px;
+}
+
+.header-quote p {
+  font-family: "Circular Std", "Poppins", system-ui, -apple-system, "Segoe UI",
+    Roboto, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: -0.02em;
+  color: #000;
+}
