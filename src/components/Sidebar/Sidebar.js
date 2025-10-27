@@ -9,14 +9,22 @@ export default function Sidebar() {
         <div className="brand-title">mathelda.</div>
         <div className="brand-sub">ui designer</div>
       </div>
+      {/* ------ */}{" "}
+      <div className="hero-text">
+        <div className="hero-hello">
+          <span>Hello There</span> <div className="hello-line"></div>
+        </div>
+        <h1 className="hero-title">
+          breathing <br /> pixels
+        </h1>
+      </div>
+      {/* ----- */}
       <nav className="sidebar-subnav">
         <Link to="/process">my process</Link>
         <Link to="/clients">my clients</Link>
         <Link to="/pricing">pricing</Link>
       </nav>
-
       <div className="sidebar-divider" />
-
       <nav className="sidebar-socials">
         <Link to="/facebook">fb</Link>
         <Link to="/twitter">tw</Link>
